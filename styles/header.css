@@ -1,0 +1,51 @@
+.header{
+  height: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.543);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #dedede;
+  z-index: 100;
+  color: white;
+
+}
+
+.middle-section{
+  display: flex;
+  flex:1;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.picture{
+  margin-right: 25px;
+}
+
+.user-picture{
+  height: 160px;
+  border-radius: 80px;
+
+}
+.peronal-information{
+  min-width: 500px;
+
+}
+.peronal-information p{
+  display: inline-block;
+  margin-right: 4px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.name-surname{
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 30px;
+ 
+}

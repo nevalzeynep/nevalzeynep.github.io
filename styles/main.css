@@ -1,0 +1,42 @@
+.main-grid{
+  display: grid;
+  column-gap: 8px;
+  row-gap: 16px;
+  background-color: #f9f9f9;
+  padding-left:200px;
+  justify-content: center;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.skill-row{
+  margin-bottom: 10px;
+  position: relative;
+  max-width: 500px;
+
+
+}
+
+.skill-preview,.works{
+  margin-bottom: 20px;
+ 
+}
+
+.title{
+  font-weight: 700;
+  margin-bottom: 10px;
+  color:rgb(0, 0, 0);
+}
+
+.job-title{
+  font-weight: 500;
+  margin-bottom: 0px;
+  color:rgba(0, 0, 0, 0.909);
+  font-size: 14px;
+}
+
+
+.company-name{
+  margin-bottom: 5px;
+  font-size: 14px;
+}
